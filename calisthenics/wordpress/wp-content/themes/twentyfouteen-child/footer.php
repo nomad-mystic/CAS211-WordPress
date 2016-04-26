@@ -36,20 +36,17 @@
 		$('#simple-menu').sidr({
 			side: 'right'
 		});
-	});
-	$(document).ready(function() {
 		$('.responsive-menu-button').sidr({
 			name: 'sidr-main',
 			source: '#navigation',
 			side: 'right'
-
+		});
+		$("html").niceScroll({
+				cursorborder:"0px solid #fff",
+				cursorwidth:"5px",
+				scrollspeed:"70"
 		});
 	});
-	$(document).ready(
-		function() {
-			$("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
-		}
-	);
 </script>
 </body>
 </html>

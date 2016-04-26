@@ -360,8 +360,8 @@ p.box-desc
 }
 form input
 {
-	background: none repeat scroll 0% 0% #F7F6F6;
-	padding: 15px;
+	background: none repeat scroll 0 0 #F7F6F6;
+	padding: 10px;
 	width: 100%;
 	border-radius: 5px;
 	font-size: 16px;
@@ -382,7 +382,7 @@ form textarea
 	width: 100%;
     border-radius: 5px;
     box-shadow: none;
-    background: none repeat scroll 0% 0% #F7F6F6;
+    background: none repeat scroll 0 0 #F7F6F6;
     padding: 15px;
     font-size: 16px;
     font-weight: 400;
@@ -402,23 +402,23 @@ form textarea
 button.submit
 {
 	background: #1C97CA;
-border: medium none;
-color: #FFF;
-padding: 15px 10px;
-font-size: 18px;
-font-weight: 600;
-font-family: "Open Sans",sans-serif;
-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
--webkit-transition: all 0.3s ease 0s;
--ms-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
-margin-top: 20px;
-transition: background 0.3s ease-in;
-cursor: pointer;
-display: block;
-margin: 30px auto 0px;
-border-radius : 5px;
+    border: medium none;
+    color: #FFF;
+    padding: 15px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans",sans-serif;
+    transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    margin-top: 20px;
+    transition: background 0.3s ease-in;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0px;
+    border-radius : 5px;
 }
 button.submit:hover
 {
@@ -556,7 +556,6 @@ article {
 }
 article a {
 	text-decoration: none;
-	color:
 }
 article h1.entry-title a {
 	color: #24436d;
@@ -565,13 +564,32 @@ article .entry-meta {
 	margin-bottom: 20px;
 	font-size: .80em;
 }
+article:first-child {
+    padding-top: 0 !important;
+}
+/*--for the posting with blue background--*/
+article:nth-child(even) {
+    background-color: #24436d;
+    color: white;
+}
+article:nth-child(even) a {
+    color: #ffffff;
+}
+article:nth-child(even) h1.entry-title a {
+    color: #ffffff;
+}
 article:nth-child(odd) a {
 	color: #000;
 }
-
 .entry-content p {
 	line-height: 1.4em;
 	margin-bottom: 10px;
+}
+.color-border-header {
+    margin-bottom: 2%;
+}
+#main {
+    padding: 1% 1% 30px 1%;
 }
 #primary {
 	width: 83%;

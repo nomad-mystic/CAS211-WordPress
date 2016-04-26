@@ -1,0 +1,53 @@
+
+
+
+/*---home widget area---*/
+
+.homeWidgetArea {
+  article > div {
+    border: 1px solid #000;
+  }
+  img {
+    height: 200px;
+  }
+  .row {
+    margin: 2% 0;
+  }
+  .btn-group {
+    width: 100%;
+    button {
+      width: 100%;
+    }
+  }
+} // end homewidgetArea
+
+/*---homePageLoop---*/
+.homePageLoop {
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: 5% 0 2%;
+  }
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: $headerFontStack;
+    font-style: italic;
+  }
+  p {
+    font-size: 1.25em;
+    text-align: center;
+    margin: 2% 0;
+    padding: 1em 2em;
+  }
+}
+
+/*---footer Widget Area---*/
+footer {
+  article > div {
+    border: 1px solid #000;
+  }
+  .row {
+    margin: 2% 1p;
+  }
+}

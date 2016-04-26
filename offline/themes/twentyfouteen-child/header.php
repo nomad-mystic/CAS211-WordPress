@@ -46,7 +46,7 @@
 					<ul>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/">Home</a></li>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/#features">Services</a></li>
-						<li><a href="#">Stories</a></li>
+						<li><a href="http://nomadmystic.com/CAS211W/calisthenics/">Stories</a></li>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/">Shop</a></li>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/#contact">Contact</a></li>
 					</ul>
@@ -54,6 +54,6 @@
 			</div>
 		</div>
 	</div>
-    <div class="color-border"></div>
+    <div class="color-border color-border-header"></div>
 	<div class="clearit"></div>
 	<!--header ends-->

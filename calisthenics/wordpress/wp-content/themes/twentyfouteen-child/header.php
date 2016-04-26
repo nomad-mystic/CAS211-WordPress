@@ -12,7 +12,7 @@
 <!--[if IE 7]>
 <html class="ie ie7" <?php language_attributes(); ?>>
 <![endif]-->
-<!--[if IE 8]>
+<!--[if IE 8]-->
 <html class="ie ie8" <?php language_attributes(); ?>>
 <![endif]-->
 <!--[if !(IE 7) & !(IE 8)]><!-->
@@ -24,7 +24,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<!--[if lt IE 9]>
+	<!--[if lt IE 9]-->
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
@@ -46,7 +46,7 @@
 					<ul>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/">Home</a></li>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/#features">Services</a></li>
-						<li><a href="#">Stories</a></li>
+						<li><a href="http://nomadmystic.com/CAS211W/calisthenics/">Stories</a></li>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/">Shop</a></li>
 						<li><a href="http://nomadmystic.com/CAS211W/nifty/#contact">Contact</a></li>
 					</ul>
@@ -54,6 +54,7 @@
 			</div>
 		</div>
 	</div>
-    <div class="color-border"></div>
+    <div class="color-border color-border-header"></div>
 	<div class="clearit"></div>
+	<div id="main" class="site-main">
 	<!--header ends-->
